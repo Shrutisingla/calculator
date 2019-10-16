@@ -25,7 +25,7 @@
       <span @click="select('-')" class="my-btn opr">-</span>
       <span @click="clear()" class="my-btn opr">C</span>
     </div>
-    <input type="text" v-model="number"></input>
+    <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" v-model="number"></input>
   </div>
 
 </template>
