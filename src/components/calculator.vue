@@ -5,7 +5,7 @@
       <span @click="select(1)" class="my-btn col-xs-4">1</span>
       <span @click="select(2)" class="my-btn">2</span>
       <span @click="select(3)" class="my-btn">3</span>
-      <span @click="select('x')" class="my-btn opr">*</span>
+      <span @click="select('*')" class="my-btn opr">*</span>
     </div>
     <div>
       <span @click="select(4)" class="my-btn">4</span>
